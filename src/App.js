@@ -13,6 +13,9 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
+		return (
+			cart.splice(1, 0, item)
+		)
 	};
 
 	return (
